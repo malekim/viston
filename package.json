@@ -1,0 +1,16 @@
+{
+    "name": "visio.css",
+    "version": "1.0.0",
+    "homepage": "https://visio.malek.im/",
+    "author": "Lukasz Malek <dev@malek.im>",
+    "description": "CSS framework for visionaries.",
+    "main": "dist/visio.css",
+    "keywords": [
+        "css", "framework", "css-framework", "responsive", "rwd"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/malekim/visiocss.git"
+    },
+    "license": "MIT"
+  }
