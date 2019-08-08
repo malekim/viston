@@ -1,16 +1,27 @@
 {
-    "name": "visio.css",
+    "name": "viston",
     "version": "1.0.0",
-    "homepage": "https://visio.malek.im/",
+    "homepage": "https://viston.malek.im/",
     "author": "Lukasz Malek <dev@malek.im>",
     "description": "CSS framework for visionaries.",
-    "main": "dist/visio.css",
+    "main": "dist/viston.css",
     "keywords": [
-        "css", "framework", "css-framework", "responsive", "rwd"
+        "css",
+        "framework",
+        "css-framework",
+        "responsive",
+        "rwd"
     ],
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1",
+        "build": "sass sass/base.scss:dist/viston.css & sass dist/viston.css:dist/viston.min.css --style compressed"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/malekim/visiocss.git"
+        "url": "https://github.com/malekim/viston.git"
     },
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "sass": "^1.22.9"
+    }
+}
